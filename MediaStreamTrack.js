@@ -43,7 +43,7 @@ class MediaStreamTrack extends EventTarget(MEDIA_STREAM_TRACK_EVENTS) {
 
   constructor(info) {
     super();
-
+console.log("info.id",info.id);
     let _readyState = info.readyState.toLowerCase();
     this._enabled = info.enabled;
     this.id = info.id;
