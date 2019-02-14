@@ -86,7 +86,7 @@ console.log("info.id",info.id);
    * This is how the reference application (AppRTCMobile) implements camera
    * switching.
    */
-  _switchCamera() {
+  switchCamera() {
     if (this.remote) {
       throw new Error('Not implemented for remote tracks');
     }
